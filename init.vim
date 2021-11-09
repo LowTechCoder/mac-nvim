@@ -95,7 +95,7 @@ nnoremap <CR> :nohlsearch<cr>
 let @d = "vitkojO<div class=\"PLACEHOLDER\">gv>oo\<BS></div><!-- PLACEHOLDER -->/PLACEHOLDER\<CR>:%s///g\<Left>\<Left>"
 
 "Rip grep remaps
-nnoremap <Leader>rg gRg -g "!*main.css*" 
+nnoremap <Leader>rg :Rg -g "!*main.css*"
 "rip grep replace in quickfix
 nnoremap <Leader>rgr :cdo %s###gc<Left><Left><Left>
 "fuzzy find remaps
