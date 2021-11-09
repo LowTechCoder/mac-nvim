@@ -85,10 +85,6 @@ xnoremap <Leader>ra :s###g<Left><Left>
 nnoremap <Leader>r :%s###gc<Left><Left><Left>
 xnoremap <Leader>r :s###gc<Left><Left><Left>
 
-" paste the 0 register
-xnoremap <Leader>0p "0p
-nnoremap <Leader>0p "0p
-
 " cancel the hlsearch by hitting enter
 nnoremap <CR> :nohlsearch<cr>
 
